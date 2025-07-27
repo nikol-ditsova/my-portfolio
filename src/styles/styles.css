@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Libre+Caslon+Display&display=swap');
+
+.mainFont {
+  font-family: "Libre Caslon Display", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.secondaryFont {
+  font-family: "Cutive Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
