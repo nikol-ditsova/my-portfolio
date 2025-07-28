@@ -15,7 +15,8 @@ const AboutMeSection = () => {
             sunt in culpa qui officia deserunt mollit anim id est laborum
           </p>
         </div>
-        <div className="w-80 h-[27rem] overflow-hidden mx-auto -mb-20 shadow-2xl relative z-10">
+        <div className="w-96 h-96 rounded-full overflow-hidden mx-auto -mb-40 shadow-2xl relative z-10">
+          {/* w-96 h-96 rounded-full overflow-hidden mx-auto mb-4 shadow-2xl */}
           <img src="/images/me.jpeg" alt="Portrait of me" className="w-full h-full object-cover" />
         </div>
       </div>

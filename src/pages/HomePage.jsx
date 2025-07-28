@@ -3,7 +3,7 @@ import Navbar from "../components/NavBar";
 import AboutMeSection from "../components/AboutMeSection";
 import SkillsSection from "../components/SkillsSection";
 import ProjectsSection from "../components/ProjectsSection";
-// import ContactSection from "../components/ContactSection";
+import Footer from "../components/Footer";
 
 const HomePage = () => {
   return (
@@ -13,7 +13,7 @@ const HomePage = () => {
       <AboutMeSection />
       <SkillsSection />
       <ProjectsSection />
-      {/* <ContactSection /> */}
+      <Footer />
     </div>
   );
 };
