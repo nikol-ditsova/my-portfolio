@@ -2,9 +2,9 @@ import '../styles/timelineStyle.css'
 
 const EducationTimeline = () => {
   return (
-    <section className="ps-timeline-sec ml-5">
+    <section className="ps-timeline-sec pb-8">
         <div className="container">
-            <h2 className="text-3xl mainFont font-bold text-start pb-8 pt-6 pl-12">Education</h2>
+            <h2 className="text-3xl mainFont font-bold text-start pb-8 pt-6">Education</h2>
             <ol className="ps-timeline">
                 <li>
                     <div className="img-handler-top">

@@ -15,7 +15,7 @@ const SkillsSection = () => {
       </div>
 
       <div className="mt-10">
-        <h3 className="text-2xl mainFont font-semibol mb-2 text-end">Professional</h3>
+        <h3 className="text-2xl mainFont font-semibol mb-2">Professional</h3>
         <hr></hr>
         <div>
           <ProfessionalSkills/>

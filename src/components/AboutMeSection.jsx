@@ -2,13 +2,14 @@ import EducationTimeline from "./EducationTimeline";
 
 const AboutMeSection = () => {
   return (
-    <section id="about-me" className="py-10 ">
-      <div className="px-20 mt-6">
-        <h2 className="text-4xl mainFont font-semibold mb-4">ABOUT ME</h2>
+    <section id="about-me" className="pt-10 header-bg">
+      <div className="px-20 mt-6 text-white">
+        <h2 className="text-5xl mainFont font-semibold tracking-wider mb-4">NIKOL DITSOVA</h2>
+        <p className="mt-2 mb-2 text-lg tracking-wide secondaryFont text-white">Junior Full Stack Developer</p>
       <div className="flex flex-col md:flex-row items-start gap-6">
         <div className="flex-1">
-          <p className="text-2xl mainFont font-semibold">Nikol Ditsova (she/her)</p>
-          <p className="mt-2 text-sm text-gray-700">
+          {/* <p className="text-2xl mainFont font-semibold">Nikol Ditsova (she/her)</p> */}
+          <p className="mt-2 text-sm text-gray-300">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.<br/>
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure <br/>
             dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, <br/>
@@ -21,7 +22,7 @@ const AboutMeSection = () => {
         </div>
       </div>
       </div>
-    <div className="text-center w-full py-2 bg-blue-200 relative z-0">
+    <div className="text-center w-full py-2 bg-slate-200 relative z-1">
         <EducationTimeline/>
     </div>
     </section>
